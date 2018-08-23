@@ -1,8 +1,18 @@
-var launchMissiles = function(value) {
-  missileSystem.launch("now");
+let price = false;
+var paymentSystem = function(price) {
+  if (price) {
+    buyProduct = function(value) {
+      console.log("Didn't buy!");
+    };
+  } else {
+    buyProduct = function(value) {
+      console.log("Bought it.");
+    };
+  }
 };
-
-if (safeMode) launchMissiles = function(value) {};
+var buyProduct = function(value) {};
+paymentSystem(price);
+buyProduct();
 
 // Function variables usually simply act as names for a specific
 // piece of program. Such a variable is defined once and never
