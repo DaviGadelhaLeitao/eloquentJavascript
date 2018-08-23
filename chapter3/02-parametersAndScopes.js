@@ -17,7 +17,7 @@ console.log(x); // inside f2
 // GLOBAL VS LOCAL VARIABLES
 
 // An important property of functions is that variables
-// crated inside them, including their parameters, are
+// created inside them, including their parameters, are
 // LOCAL to the function.
 
 // This "localness" of variables applies only to the
