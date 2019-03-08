@@ -48,3 +48,11 @@ calculateFactorial3 = number => {
 };
 
 console.log(calculateFactorial3(3));
+
+
+function recursiveFactorial(number){
+  if(number == 0) return 1;
+  else return number * recursiveFactorial(number - 1);
+}
+
+console.log(recursiveFactorial(1));
